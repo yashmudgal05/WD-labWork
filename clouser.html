@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>clousure</title>
+    </head>
+    
+    <script>
+        function addNumber(firstNo, secondNo)
+        {
+            var returnValue = ' result is : ';
+            
+            function add()
+            {
+                return returnValue + (firstNo + secondNo);
+            }
+            return add();
+        }
+        
+        document.write(addNumber(10,20));
+        
+    </script>
+</html>
