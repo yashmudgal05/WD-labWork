@@ -16,5 +16,5 @@ document.write("<li>" + value +"</li>");
 document.wrtiteln("</ol>");
 </script>
 </head>
-<body>hello</hello>
+<body>hello</body>
 </html>
